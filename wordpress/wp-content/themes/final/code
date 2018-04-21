@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title><?php //echo get_bloginfo('name'); ?></title>
+<?php wp_head(); ?>
+</head>
+<body <?php //body_class(); ?>>
+
+<header>
+<h1><a href="<?php //echo home_url();?>"><?php //echo get_bloginfo('name'); ?></a></h1>
+    <h2><?php //echo get_bloginfo('description'); ?></h2>
+  
+</header>
