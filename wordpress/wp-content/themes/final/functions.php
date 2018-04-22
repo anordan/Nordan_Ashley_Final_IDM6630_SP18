@@ -8,6 +8,8 @@ function create_product_post_type() {
 
     $args =array(
         'labels' => $labels,
+        'menu_position' => 5,
+        'supports' => array('title', 'editor', 'thumbnail'),
         'public' => true
     );
 
@@ -20,7 +22,7 @@ add_action('init', 'create_product_post_type');
 add_theme_support('post-thumbnails');
 
 function loadCSS() {
-    wp_enqueue_style('theme-style', get_template_directory_url(), '/css/theme-styles.css');
+    wp_enqueue_style('theme-style', get_template_directory_uri(). '/css/theme-styles.css');
 }
 
 add_action('wp_enqueue_scripts', 'loadCSS');
