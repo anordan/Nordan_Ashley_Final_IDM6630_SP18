@@ -1,7 +1,9 @@
 <?php
 define( 'WP_USE_THEMES', false ); 
 get_header(); ?>
-    <h1>hello</h1>
+<div class="shop-page">
+    <h1>Shop</h1>
+</div>
     <main>
     <?php get_template_part('loop-store'); ?>
     </main>

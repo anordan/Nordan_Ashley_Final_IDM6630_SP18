@@ -1,6 +1,6 @@
 <footer>
 <?php get_template_part('nav'); ?>
-<a class="top" href="#">Back to Top</a>
+
     <div class="icons">
         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 		
