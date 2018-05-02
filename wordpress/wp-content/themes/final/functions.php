@@ -18,6 +18,8 @@ function create_product_post_type() {
 
 add_action('init', 'create_product_post_type');
 
+set_post_thumbnail_size( 400, 400 );
+
 
 add_theme_support('post-thumbnails');
 

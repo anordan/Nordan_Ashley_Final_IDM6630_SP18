@@ -1,23 +1,20 @@
 <?php 
 $product_post_type_query =array(
-    'post-type' => 'product',
-    'post-status' => 'publish',
+    'post_type' => 'product',
+    'post_status' => 'publish',
 );
 
 $get_products =new WP_Query($product_post_type_query);
 
 if ( $get_products->have_posts() ) : while ( $get_products->have_posts() ) : $get_products->the_post(); ?>
-      
-       <?php post_class(); ?>
-       <a href="<?php the_permalink(); ?>"></a>
-       <?php the_title('<h2>', '</h2>'); the_post_thumbnail(); ?>
-            
-       
-       <p><?php the_field('description'); ?></p>
-         <p><?php the_field('size'); ?></p>
+    <div class= "shop-loop">  
+      <div <?php post_class(); ?>>
+      <?php the_post_thumbnail(); ?><br>
+ <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+
            <p><?php the_field('price'); ?></p>
-        
-    
+        </div>
+</div>
     <?php endwhile; else : ?>
 	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>

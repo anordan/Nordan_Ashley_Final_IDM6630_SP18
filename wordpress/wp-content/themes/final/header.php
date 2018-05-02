@@ -12,9 +12,7 @@
 <body <?php body_class(); ?>>
 
 <header>
-<div class="bars">
-<a href="#"><i class="fas fa-bars"></i></a>
-</div>
+
 <h1><a href="<?php echo home_url();?>"><?php echo get_bloginfo('name'); ?></a></h1>
     <h2><?php echo get_bloginfo('description'); ?></h2>
   

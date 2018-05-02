@@ -18,8 +18,6 @@
     <div class="contact-page">
     <h1><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/contact/">Contact</h1></a>
     </div>
-
-
         </article>
         <?php endwhile; else : ?>
 	<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
