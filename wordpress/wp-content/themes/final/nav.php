@@ -1,9 +1,9 @@
 <nav>
     <ul>
-    <li><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/store/">Shop</a></li>
-    <li><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/about/">About</a></li>
-	<li><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/events/">Events</a></li>
-    <li><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/contact/">Contact</a></li>
+    <li><a href="<?php echo get_page_link( get_page_by_title( store )->ID ); ?>">Shop</a></li>
+    <li><a href="<?php echo get_page_link( get_page_by_title( about )->ID ); ?>">About</a></li>
+	<li><a href="<?php echo get_page_link( get_page_by_title( events )->ID ); ?>">Events</a></li>
+    <li><a href="<?php echo get_page_link( get_page_by_title( contact )->ID ); ?>">Contact</a></li>
     <li><a class="top" href="#">Back to Top</a></li>
     </ul>
 </nav>

@@ -8,10 +8,10 @@
     <span></span>
     
     <ul id="menu">
-      <a href="http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/store/"><li>Shop</li></a>
-      <a href="http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/about/"><li>About</li></a>
-      <a href="http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/events/"><li>Events</li></a>
-      <a href="http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/contact/"><li>Contact</li></a>
+    <li><a href="<?php echo get_page_link( get_page_by_title( store )->ID ); ?>">Shop</a></li>
+    <li><a href="<?php echo get_page_link( get_page_by_title( about )->ID ); ?>">About</a></li>
+	<li><a href="<?php echo get_page_link( get_page_by_title( events )->ID ); ?>">Events</a></li>
+    <li><a href="<?php echo get_page_link( get_page_by_title( contact )->ID ); ?>">Contact</a></li>
     </ul>
   </div>
 </nav>

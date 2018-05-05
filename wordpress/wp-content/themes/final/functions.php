@@ -10,6 +10,7 @@ function create_product_post_type() {
         'labels' => $labels,
         'menu_position' => 5,
         'supports' => array('title', 'editor', 'thumbnail'),
+        'taxonomies' => array( 'tags','category' ),
         'public' => true
     );
 
