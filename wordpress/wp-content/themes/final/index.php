@@ -10,5 +10,5 @@ get_header(); ?>
     <main>
     <?php get_template_part('loop'); ?>
     </main>
-    <div class="button-2"><a href="#">See More Products</a></div>
+    <div class="button-2"><a href=<?php echo get_page_link( get_page_by_title( store )->ID ); ?>>See More Products</a></div>
 <?php get_footer(); ?>

@@ -86,8 +86,7 @@ h1 a {
 }
 
 h1 a:hover {
-    color: #fff;
-    background-color: #000;
+    color: #f7865a;
     padding: 5px;
 }
 .contact-page h1 {
@@ -139,7 +138,7 @@ text-decoration: none;
 p {
     font-family: 'Montserrat', sans-serif;
     padding: 2px;
-    margin: 2em;
+    margin: .5em;
     line-height: 15px;
     color: #000;
 }
@@ -155,27 +154,29 @@ main {
     position: relative;
     display: inline-block;
     width: 350px;
+    padding: 15px;
     
 }
 
 .shop-loop p {
    text-align: center;
-   margin: 15px;
+   margin: 5px;
 }
 
 .shop-loop  a{
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
 .shop-loop a:hover {
-    color: #fff;
-    background-color: #000;
+    color: #f7865a;
     padding: 5px;
 }
 
 .shop-loop img {
-    margin: 2em;
+    margin: 1em;
+    padding: 20px;
 }
 
 .single img{
@@ -200,7 +201,13 @@ main {
     color: #fff;
 }
 
-
+.button-2 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    padding: 7px;
+    margin: 1em 0 1em 0;
+}
 
 .loop {
     clear: both;
@@ -216,18 +223,18 @@ main {
 }
 
 .loop  a{
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
 .loop a:hover {
-    color: #fff;
-    background-color: #000;
+    color: #f7865a;
     padding: 5px;
 }
 
 .loop img {
-    margin: 2em;
+    margin: 1em;
+    padding: 20px;
 }
 
 
@@ -287,7 +294,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Poiret One', cursive;
     color: #000;
     text-align: center;
     padding: 6px;

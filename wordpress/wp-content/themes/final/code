@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-<title><?php //echo get_bloginfo('name'); ?></title>
-<?php wp_head(); ?>
-</head>
-<body <?php //body_class(); ?>>
+   <div class="shop-page">
+    <h1><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/store/">Shop</h1></a>
+    </div> 
+    
+    <div class="about-page">
+    <h1><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/about/">About</h1></a>
+    </div>
+        
+    <div class="events-page">
+    <h1><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/events/">Events</h1></a>
+    </div>
 
-<header>
-<h1><a href="<?php //echo home_url();?>"><?php //echo get_bloginfo('name'); ?></a></h1>
-    <h2><?php //echo get_bloginfo('description'); ?></h2>
-  
-</header>
+    <div class="contact-page">
+    <h1><a href=" http://localhost/Nordan_Ashley_Final_IDM6630_SP18/wordpress/contact/">Contact</h1></a>
+    </div>
+
+
+    <ul class="categories">
+    <li><?php wp_list_categories('title_li');?></li>
