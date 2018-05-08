@@ -2,6 +2,7 @@
 $product_post_type_query =array(
     'post_type' => 'product',
     'post_status' => 'publish',
+    'posts_per_page' => '19',
 );
 
 $get_products =new WP_Query($product_post_type_query);
